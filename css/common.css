@@ -8,19 +8,31 @@
   box-sizing: border-box;
 }
 :root {
-  /* --color-primary:
-    --color-secondary:
-    --color-orange:
-    --color-black:
-    --color-white:
-    --color-green:
-    --color-brown:
-    --color-pink: */
+  --color-primary: #745bb3;
+  --color-secondary: #3a3a40;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary-tint1: #e4deff;
+  --color-primary-tint2: #dbcdff;
+  --color-primary-tint3: #f6f3ff;
+  --color-primary-shade: #a682ff;
+  --color-gray: #717579;
   --color-box-shadow: rgba(0, 0, 0, 0.25);
 }
 .html {
   font-size: 62.5%;
 }
 body {
+  color: #343a40;
   font-family: "Nunito", sans-serif;
+}
+.btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 19px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }

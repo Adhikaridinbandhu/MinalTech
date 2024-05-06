@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f3ff;
+  padding: 1.6rem 2.5rem 0rem 2.5rem;
+  height: 5rem;
+}
+.munaltech-logo {
+  width: 85%;
+  height: 3.1rem;
+}
+.head-nav {
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+  gap: 2rem;
+}
+.head-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 4.8rem;
+}
+.head-nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #343a34;
+}
+.btn-pricing {
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f3ff;
+  padding: 4rem 6rem;
+  gap: 2rem;
+}
+.hero-text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hero-header {
+  text-align: left;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 2.3rem;
+}
+.hero-para {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.hero-btn-wrapper {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+}
+.btn-smart {
+  padding: 10px 20px;
+}
+.link-learn {
+  align-items: center;
+  padding: 12px 25px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hero-star-wrapper {
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.fa-star {
+  color: var(--color-primary);
+}
+.fa-star-half-stroke {
+  color: var(--color-primary);
+}
+.hero-star-wrapper p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.hero-img {
+  max-width: 45%;
+  height: auto;
+}

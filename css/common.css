@@ -62,3 +62,25 @@ body {
   font-weight: 500;
   line-height: 1.8;
 }
+.how-content-heading {
+  font-size: 1.9rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.how-content-para {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.step-number {
+  padding: 3px 15px;
+  background-color: #dbcdff;
+  border-radius: 50%;
+  box-shadow: 0 0.2rem 0.8rem rgb(0, 0, 0, 0.05);
+}
+.step-content {
+  margin-left: 0.6rem;
+}

@@ -16,6 +16,7 @@
   --color-primary-tint2: #dbcdff;
   --color-primary-tint3: #f6f3ff;
   --color-primary-shade: #a682ff;
+  --color-primary-shade2: #644e99;
   --color-gray: #717579;
   --color-box-shadow: rgba(0, 0, 0, 0.25);
 }
@@ -37,7 +38,6 @@ body {
   cursor: pointer;
 }
 .container {
-  border: 2px solid red;
   padding: 4rem 6rem;
 }
 .sub-heading {

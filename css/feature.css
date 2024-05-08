@@ -1,3 +1,49 @@
 .feature-section-wrapper {
   margin-top: 3.6rem;
 }
+.feature-icons-wrapper {
+  display: flex;
+  gap: 4.6rem;
+  margin-top: 5rem;
+}
+.feature-list {
+  display: flex;
+  gap: 2rem;
+}
+.feature-icon {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+}
+.feature-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.feature-para {
+  margin-top: 13px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.feature-stats-wrapper {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 61px 61px;
+  border-radius: 0.6rem;
+  color: var(--color-white);
+  background-color: var(--color-primary-shade2);
+}
+.feature-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-stat-number {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+.feature-stat-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
